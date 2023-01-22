@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Italianno&family=Lora:ital@1&family=Petit+Formal+Script&display=swap');
+*{margin: 0;padding: 0;}
+body,html{
+	overflow-x: hidden !important;
+}
+
+/*FORMATAÇÕES DA HEADER*/
+header{
+		padding-top: 30px;
+		display:flex;
+		justify-content: center;
+		width: 100%;
+			}
+#marinalogoheader{
+	width: 20%;
+	height: 150px;
+}
+
+nav{ 
+	align-content: center;
+}
+nav a:hover{
+	color:red;
+}
+nav a:link,a:visited{
+	color:black;
+}
+.imglogosheader{
+	padding: 10px;
+	height: 40px;
+}
+
+.menu{
+	font: 3rem 'Cookie',cursive;
+	padding: 20px;
+	text-decoration: none;
+	margin-right: 20px;
+
+}
+/*FORMATAÇÕES DO H1*/
+
+h1{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 35px;
+	font: 5rem 'Lora',cursive;
+	color: red;
+}
+article p{
+	width: 100%;
+	text-align: center;
+	font: 1.5rem  'Lora',sans-serif;
+	margin-bottom: 50px;
+}
+article span{
+	color: red;
+}
+/*FORMATAÇÕES DA BIOGRAFIA*/
+	#container1banda{
+		width: 80%;
+		display: flex;
+		margin:0 auto;
+		margin-bottom: 20px;
+	}
+	#imgaoutrabandadalua{
+	float: left;
+	height: 500px;
+	width: 500px;
+}
+#container1banda p{
+		width: 65%;
+		text-align: justify;
+		float: right;
+		text-indent: 20px;
+		padding-left: 100px;
+		font: 1.6rem  'Lora',sans-serif;
+		height: 500px;
+	}
+
+/*BANDA ROSA NEON*/
+
+#containerbandarosaneon{
+	display: flex;
+	height: 500px;
+	margin:0 auto;
+	width: 80%;
+	margin-bottom: 20px;
+}
+#imgbandarosaneon{
+	width: 500px;
+	float: left;
+	height: 500px;
+	margin-right: 20px;
+}
+
+#containerbandarosaneon p{
+		text-align: justify;
+		text-indent: 20px;
+		font: 1.6rem  'Lora',sans-serif;
+		width: 50%;
+		float: right;
+		padding-left: 100px;
+}
+
+
+
+/*ALBUM DE PRIMEIRA*/
+
+#sectiondoalbum{
+	width: 100%;
+	height: 705px;
+	margin-top: 20px;
+	display: flex;
+	background-color: #8C2525;
+ 	margin:0 auto;
+}
+
+.imgdasection{
+	width: 50%;
+	height: 700px;
+}
+.uldasection{
+	text-align: justify;
+	padding-left: 100px;
+}
+.uldasection p {
+	padding-left: 150px;
+	font: 3rem 'Cookie',cursive;
+}
+.uldasection li{
+	font-size: 2rem;
+	font-family: 'Cookie', cursive;
+	line-height:4rem;
+	color:#fff;
+ 	margin-left: 50px;
+}
+
+/* AGENDA DA MARINA*/
+
+#containeragendamarina{
+	display: flex;
+	background-color: #fff;
+	margin-bottom: 80px;
+}
+#listadaagenda{
+	margin: 0 auto;
+}
+#listadaagenda span{
+	color: black;
+}
+#img-div-agenda{
+	height: 700px;
+	padding-left: 15px;
+	width: 100%;
+}
+.li-agenda{
+	font: 2.5rem 'Cookie',cursive;
+	text-align: justify;
+	line-height: 6rem;
+	color: red;
+	list-style-type: none;
+}
+/*contato*/
+form{
+	width: 400px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+input{
+	padding-bottom: 20px;
+}
+
+
+input,textarea{
+ 	width:100%;
+ 	height: 40px;
+ 	padding-left: 5px;
+ 	box-sizing: border-box;
+ 	margin-bottom: 15px;
+ 	
+ }
+ label{
+ 	margin-bottom: 15px;
+ }
+ label,fieldset,input,textarea{
+ 	font: 1rem 'Castoro', sans-serif;
+ }
+ input [type="submit"]{
+ 	text-align: center;
+ }
+ fieldset{
+ 	margin-bottom: 10px;
+ 	padding:10px;
+ 	 }
+ 
+
+/*FOOTER*/
+
+
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	margin-top: 5px;
+}
+footer p{
+	margin: 0 auto;
+	width: 700px;
+	padding-top: 25px;
+	font: 2rem 'Cookie',cursive;
+	color: #FF2525;
+}
+@media screen and (max-width: 390px){
+	header {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#marinalogoheader {
+		width: 341px;
+		height: 245px;
+	}
+
+	nav {
+		display: flex;
+		gap: 1rem;
+		margin-top: 32px;
+	}
+
+	.menu {
+		padding: 0;
+		margin: 0;
+		font-size: 2.5rem;
+	}
+
+	.imglogosheader {
+		padding: 0;
+	}
+
+	#social-medias {
+		display: flex;
+		gap: 2rem;
+		margin-top: 16px;
+		margin-bottom: 16px;
+	}
+
+	#social-medias a img {
+		height: 44px;
+	}
+	
+	h1 {
+		font-size: 3rem;
+		margin: 0;
+		padding: 0 20px;
+	}
+
+	article p {
+		width: 90%;
+		padding: 0 20px;
+		margin: 16px 0 0 0;
+	}
+
+	#imgaoutrabandadalua {
+		width: 350px;
+		height: 291.34px;
+		padding: 0 20px;
+	}
+
+	#container1banda {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		margin-top: 32px;
+		flex-direction: column;
+	}
+
+	#container1banda p {
+		padding: 0 20px; 
+		margin: 16px 0 0 0;
+		font-size: 1.25rem;
+		line-height: 38px;
+		width: 90%;
+	}
+
+	#containerbandarosaneon {
+		flex-direction: column;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#containerbandarosaneon p {
+		padding: 0 20px; 
+		margin: 16px 0 0 0;
+		font-size: 1.25rem;
+		line-height: 38px;
+		width: 90%;
+	}
+
+	#imgbandarosaneon {
+		width: 350px;
+		height: 280.45px;
+		margin: 32px 0 0 0;
+		padding: 0 20px;
+	}
+
+	.imgdasection {
+		width: 350px;
+		height: 505px;
+		padding: 0 20px;
+		margin: 0;
+		width: 90%;
+	}
+
+	#sectiondoalbum {
+		flex-direction: column;
+		margin: 260px 0 0 0;
+		padding: 0;
+		width: 100%;
+		height: 1200px;
+	}
+
+	.uldasection p {
+		padding: 0;
+		margin: 16px 0 0 0;
+		text-align: center;
+	}
+
+	.uldasection {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	footer {
+		height: 64px;
+		margin: 0;
+		padding: 0;
+	}
+
+	footer p {
+		width: auto;
+		margin: 0;
+		padding: 18px 26px;
+		text-align: center;
+		font-size: 16px;
+		line-height: 28px;
+		letter-spacing: 0.025em;
+	}
+
+	/*############# AGENDA /*#############*/
+
+	#containeragendamarina {
+		flex-direction: column;
+		margin: 0;
+	}
+
+	#img-div-agenda {
+		width: 514px;
+		height: 681px;
+		width: 90%;
+		padding: 0 20px;
+		margin: 16px 0 0 0;
+	}
+
+	.li-agenda {
+		font-size: 1.5rem;
+		line-height: 3rem;
+	}
+	/*FORM*/
+	form{
+		padding: 0 10px 0 10px;
+		width: 80%;
+	}
+	#botaoenviar{
+		padding-top: 10px;
+	}
+}
+
+
+
